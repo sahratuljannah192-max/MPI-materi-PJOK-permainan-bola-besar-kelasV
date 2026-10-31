@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#103d2c">
+<meta name="description" content="Media Pembelajaran Interaktif PJOK Kelas V: Petualangan Seru Mengenal Sepak Bola.">
+<title>Petualangan Sepak Bola | MPI PJOK Kelas V</title>
+<link rel="icon" href="assets/ball.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient a1"></div><div class="ambient a2"></div>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="Beranda"><span class="brand-ball">⚽</span><span><b>ARENA BELAJAR</b><small>MPI PJOK • KELAS V</small></span></a>
+  <div class="top-actions"><span class="online-pill"><i></i> SIAP BELAJAR</span><button class="sound-btn" id="soundToggle" aria-label="Suara">♫ <span>Suara</span></button></div>
+</header>
+<main>
+<section id="screen-home" class="screen active">
+ <div class="hero">
+  <div class="hero-copy">
+   <div class="eyebrow"><span>⚡</span> PETUALANGAN INTERAKTIF • FASE C</div>
+   <h1>Jadilah <em>Juara</em><br>di Lapangan!</h1>
+   <p>Kenali teknik dasar sepak bola, pecahkan tantangan, dan tunjukkan sportivitasmu. Belajar PJOK jadi lebih seru!</p>
+   <div class="hero-buttons"><button class="btn primary" data-go="menu">Mulai Petualangan <span>→</span></button><button class="btn ghost" data-go="materi">Lihat Materi</button></div>
+   <div class="hero-meta"><span>📚 Kelas V SD</span><span>⏱ 15–20 menit</span><span>🏅 Belajar sambil bermain</span></div>
+  </div>
+  <div class="hero-art" aria-label="Ilustrasi sepak bola"><div class="sun"></div><div class="orbit orbit1"></div><div class="orbit orbit2"></div><div class="goal"><div></div></div><div class="player">🏃</div><div class="big-ball">⚽</div><div class="spark s1">✦</div><div class="spark s2">✧</div><div class="art-tag">KICK<br><b>IT!</b></div></div>
+ </div>
+ <div class="feature-strip"><div><b>01</b><span>Pelajari teknik</span></div><div><b>02</b><span>Latihan interaktif</span></div><div><b>03</b><span>Uji kemampuan</span></div><div><b>04</b><span>Raih prestasi</span></div></div>
+</section>
+
+<section id="screen-menu" class="screen">
+ <div class="section-head"><div><div class="eyebrow">PUSAT PETUALANGAN</div><h2>Mau mulai dari mana?</h2><p>Pilih salah satu pos belajar berikut.</p></div><div class="level-badge">⭐ LEVEL PEMULA</div></div>
+ <div class="menu-grid">
+  <button class="menu-card card-material" data-go="materi"><span class="card-icon">📖</span><span class="card-num">01 / KENALI</span><b>Zona Materi</b><small>Pelajari permainan dan teknik dasarnya.</small><span class="card-arrow">↗</span></button>
+  <button class="menu-card card-sim" data-go="simulasi"><span class="card-icon">🧩</span><span class="card-num">02 / COBA</span><b>Zona Simulasi</b><small>Cocokkan gambar dengan teknik yang tepat.</small><span class="card-arrow">↗</span></button>
+  <button class="menu-card card-quiz" data-go="kuis-intro"><span class="card-icon">🎯</span><span class="card-num">03 / BUKTIKAN</span><b>Zona Kuis</b><small>Jawab pertanyaan dan kumpulkan poin.</small><span class="card-arrow">↗</span></button>
+  <button class="menu-card card-profile" data-go="profil"><span class="card-icon">🏫</span><span class="card-num">04 / INFORMASI</span><b>Profil MPI</b><small>Kenali media pembelajaran ini.</small><span class="card-arrow">↗</span></button>
+ </div>
+ <div class="resume"><span class="resume-icon">🏆</span><div><b>Perjalanan terakhirmu</b><small id="lastScore">Belum ada nilai kuis tersimpan.</small></div><button class="text-btn" data-go="hasil">Lihat hasil →</button></div>
+</section>
+
+<section id="screen-materi" class="screen">
+ <div class="section-head"><div><div class="eyebrow">POS 01 • KENALI</div><h2>Bekal Sang Pemain</h2><p>Yuk, kenali sepak bola sebelum turun ke lapangan.</p></div><span class="section-emoji">📖</span></div>
+ <div class="lesson-hero"><div><span class="tag">APA ITU SEPAK BOLA?</span><h3>Satu bola, dua tim,<br>satu tujuan!</h3><p>Sepak bola adalah permainan bola besar yang dimainkan dua regu. Setiap regu bekerja sama untuk mencetak gol ke gawang lawan dan menjaga gawangnya sendiri.</p></div><div class="lesson-ball">⚽</div></div>
+ <h3 class="subheading">4 teknik dasar yang perlu kamu kuasai</h3>
+ <div class="tech-grid">
+  <article class="tech-card"><div class="tech-visual green">🦶⚽</div><div><span class="tag">TEKNIK 01</span><h3>Menendang</h3><p>Menggerakkan bola ke arah tujuan. Kaki bagian dalam dapat digunakan untuk operan yang terarah.</p></div></article>
+  <article class="tech-card"><div class="tech-visual blue">🏃⚽</div><div><span class="tag">TEKNIK 02</span><h3>Menggiring</h3><p>Membawa bola sambil berjalan atau berlari dengan sentuhan kaki yang terkontrol.</p></div></article>
+  <article class="tech-card"><div class="tech-visual orange">🛑⚽</div><div><span class="tag">TEKNIK 03</span><h3>Mengontrol</h3><p>Menghentikan atau menguasai bola yang datang agar mudah dimainkan kembali.</p></div></article>
+  <article class="tech-card"><div class="tech-visual purple">🤝⚽</div><div><span class="tag">TEKNIK 04</span><h3>Mengoper</h3><p>Memberikan bola kepada teman satu tim yang berada pada posisi lebih baik.</p></div></article>
+ </div>
+ <div class="callout"><span>💡</span><div><b>Rahasia pemain hebat</b><p>Bukan hanya pandai menendang. Pemain hebat juga mampu melihat situasi, mengambil keputusan, dan bekerja sama.</p></div></div>
+ <div class="bottom-nav"><button class="btn secondary" data-go="menu">← Menu</button><button class="btn primary" data-go="simulasi">Coba Simulasi →</button></div>
+</section>
+
+<section id="screen-simulasi" class="screen">
+ <div class="section-head"><div><div class="eyebrow">POS 02 • COBA</div><h2>Studio Gerakan</h2><p>Pilih gambar di kiri, lalu pilih nama teknik di kanan.</p></div><span class="section-emoji">🧩</span></div>
+ <div class="match-board">
+  <div><h3 class="column-title">GAMBAR GERAKAN</h3><div class="match-list" id="pictureList">
+   <button class="match-option" data-side="pic" data-key="kick"><span>🦶⚽</span><b>A. Menendang bola</b></button>
+   <button class="match-option" data-side="pic" data-key="dribble"><span>🏃⚽</span><b>B. Membawa bola</b></button>
+   <button class="match-option" data-side="pic" data-key="control"><span>🛑⚽</span><b>C. Menghentikan bola</b></button>
+   <button class="match-option" data-side="pic" data-key="pass"><span>🤝⚽</span><b>D. Memberi bola ke teman</b></button>
+  </div></div>
+  <div><h3 class="column-title">NAMA TEKNIK</h3><div class="match-list" id="techList">
+   <button class="match-option" data-side="tech" data-key="pass"><b>1. Mengoper bola</b></button>
+   <button class="match-option" data-side="tech" data-key="control"><b>2. Mengontrol bola</b></button>
+   <button class="match-option" data-side="tech" data-key="kick"><b>3. Menendang bola</b></button>
+   <button class="match-option" data-side="tech" data-key="dribble"><b>4. Menggiring bola</b></button>
+  </div></div>
+ </div>
+ <div class="match-status"><span id="matchMessage">Pilih satu gambar untuk memulai.</span><b><span id="matchScore">0</span>/4 cocok</b></div><div class="progress"><span id="matchProgress"></span></div>
+ <div class="challenge"><div class="challenge-top"><span>🧠 TANTANGAN BERPIKIR KRITIS</span><span class="tag">AYO PIKIRKAN!</span></div><h3>Situasi di waktu istirahat</h3><p>Bola datang kepadamu. Kamu melihat teman satu tim berada di depan dan tidak dijaga lawan. Apa tindakan terbaik?</p>
+  <div class="challenge-options"><button data-critical="A">A. Menendang sekeras mungkin tanpa melihat arah.</button><button data-critical="B">B. Mengontrol bola, melihat posisi teman, lalu mengoper dengan terarah.</button><button data-critical="C">C. Membawa bola sendiri terus-menerus tanpa memperhatikan teman.</button></div><div id="criticalFeedback" class="feedback" aria-live="polite"></div>
+ </div>
+ <div class="bottom-nav"><button class="btn secondary" data-go="menu">← Menu</button><button class="btn primary" data-go="kuis-intro">Lanjut ke Kuis →</button></div>
+</section>
+
+<section id="screen-kuis-intro" class="screen">
+ <div class="quiz-intro"><div class="quiz-icon">🎯</div><div class="eyebrow">POS 03 • BUKTIKAN</div><h2>Siap Uji Kemampuan?</h2><p>Jawab 3 pertanyaan pilihan ganda. Setiap jawaban benar bernilai 1 poin. Nilai akan tersimpan di browser perangkat ini.</p><div class="quiz-rules"><span>📝 3 soal</span><span>⭐ Skor maksimal 100</span><span>🔁 Bisa diulang</span></div><button class="btn primary" id="beginQuiz">Mulai Kuis →</button></div>
+</section>
+<section id="screen-kuis" class="screen">
+ <div class="quiz-head"><div><div class="eyebrow">ZONA KUIS</div><h2>Uji Ketangkasan Pikiran</h2></div><span class="level-badge" id="questionCounter">SOAL 1/3</span></div>
+ <div class="progress"><span id="quizProgress"></span></div><div class="question-card"><div class="question-number" id="questionNumber">PERTANYAAN 01</div><h3 id="questionText"></h3><div id="answerList" class="answer-list"></div><div id="answerFeedback" class="feedback" aria-live="polite"></div><div class="question-actions"><button class="btn primary" id="nextQuestion" disabled>Berikutnya →</button></div></div>
+</section>
+<section id="screen-hasil" class="screen">
+ <div class="result-card"><div class="result-trophy">🏆</div><div class="eyebrow">PETUALANGAN SELESAI</div><h2>Kerja bagus, Juara!</h2><div class="score-ring"><strong id="finalScore">0</strong><small>NILAI</small></div><p id="resultText"></p><div class="result-stats"><div><b id="correctCount">0/3</b><small>Jawaban benar</small></div><div><b id="resultLevel">—</b><small>Predikat</small></div></div><div class="callout"><span>💭</span><div><b>Refleksi diri</b><p>Teknik apa yang paling mudah kamu pahami? Mengapa kerja sama penting? Sikap sportif apa yang akan kamu tunjukkan?</p></div></div><div class="hero-buttons centered"><button class="btn secondary" data-go="menu">Menu Utama</button><button class="btn primary" id="retryQuiz">Ulangi Kuis</button></div></div>
+</section>
+<section id="screen-profil" class="screen">
+ <div class="section-head"><div><div class="eyebrow">TENTANG MEDIA</div><h2>Profil Pembelajaran</h2><p>Media interaktif untuk mendampingi pembelajaran PJOK.</p></div><span class="section-emoji">🏫</span></div>
+ <div class="profile-card"><div class="school-mark">🏫</div><div><span class="tag">IDENTITAS MEDIA</span><h3>SD Negeri 8 Kodeoha</h3><p>Petualangan Seru Mengenal Permainan Sepak Bola</p></div></div>
+ <div class="profile-details"><div><small>MATA PELAJARAN</small><b>PJOK</b></div><div><small>KELAS / FASE</small><b>V / C</b></div><div><small>MATERI</small><b>Permainan Bola Besar</b></div><div><small>KURIKULUM</small><b>Kurikulum Merdeka</b></div></div>
+ <div class="callout"><span>📌</span><div><b>Catatan penggunaan</b><p>Media ini merupakan pendamping pembelajaran. Praktik gerakan tetap dilakukan di lapangan dengan pengawasan guru, pemanasan, dan memperhatikan keselamatan.</p></div></div>
+ <div class="bottom-nav"><button class="btn secondary" data-go="menu">← Menu Utama</button></div>
+</section>
+</main>
+<footer><span>⚽ ARENA BELAJAR</span><span>SD Negeri 8 Kodeoha • PJOK Kelas V</span></footer>
+<script src="app.js"></script>
+</body></html>
